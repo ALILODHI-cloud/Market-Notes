@@ -2,7 +2,7 @@
 
 > **Summary**
 > 
-> • Depending on the relative weighting of single-stocka and single-name legs, long dispersion PnL can be driven primarily by the gap between implied and realised correlation, or single-stock realised volatility
+> • Depending on the relative weighting of single-stock and single-name legs, long dispersion PnL can be driven primarily by the gap between implied and realised correlation, or single-stock realised volatility
 >
 \
 Long equity dispersion entails selling index volatility vs buying volatility on a basket of single names. The bet is that single-name volatility will realize high relative to index volatility. Intuitively, this outcome requires low realized correlation across constituents: individual stocks can experience large moves, but if these moves do not occur simultaneously—or offset one another—aggregate index volatility remains subdued. Thus, the trade is implicitly short realized single-name correlation. However, the richness of the index volatility being sold increases with implied correlation. For a given set of single-name implied volatilities, a higher level of market-priced correlation translates into higher index implied volatility. In conclusion, then, long dispersion is a bet that implied single-name correlation > realized single-name correlation, and is thus equivalent to harvesting 'correlation premia'. 
