@@ -20,4 +20,4 @@ More fully, we can fully express the 1y10y rate as = expectation of 10y in 1y + 
 
 All else equal, convexity premia should be higher (more negative) the higher is implied volatility (as positive convexity is worth more in such environments). Thus, in the event that 1y10y > 10y in a high implied volatility environment (an environment in which convexity premia will be high), then the cushion to receiving the 1y10y is being diminished (by the convexity premia). More precisely: ‘cushion’, when used above, is referring to the cushion against the expectations component of the forward rate being wrong to the extent that the eventual spot rate > current forward rate.
 
-# Ali Lodhi
+### Ali Lodhi
