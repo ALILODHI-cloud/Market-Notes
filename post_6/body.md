@@ -19,6 +19,10 @@ Figure 3 (top); Figure 4 (bottom)
 
 ![Alt_text](figures/figure2.jpg)
 
+## When to do what?
+
+Environments in which correlation premia is rich tend also to be environments in which single-stock realised vol is already elevated (think: immediate aftermath of a tail-event, where the market is pricing elevated levels of correlation). On the other hand, environments in which correlation premia is compressed, tend also to be environments in which single-stock realised volatility is cheap (low). Thus the optimal long dispersion weighting scheme is nicely split across regimes. In the first type of regime, you should seek pure exposure to the compression in correlation premia, rather than long exposure to something that is already rich (single-stock realised volatility) - hence correlation-weighted dispersion is optimal. In the second type of regime, you should seek pure exposure to expansion in single-stock realised volatility (which is presently cheap), rather than exposure to the compression of something that is already compressed (correlation premia) - hence, the equal-weighted scheme is optimal. 
+
 ## Conclusion 
 
 The exposures borne by long-dispersion can differ markedly based on the relative weighting of single-stock vs index legs. 
