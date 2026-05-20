@@ -10,4 +10,4 @@ Next imagine that spot increases. The delta of the put leg becomes less negative
  
 Moral of the story: for the reverse risk-reversal position to enjoy consistently positive gamma (such that the lows may be bought and the highs sold) you want implied vol to increase sharply upon a fall in spot – and fall sharply upon a rally in spot. In other words, you want high vol-of-(implied) vol. In this way, a reverse risk-reversal (long skew) position is long vol-of-vol, but short the spot-vol beta (i.e., you want vol to be strongly inversely related to spot).
 
-# Ali Lodhi
+### Ali Lodhi
