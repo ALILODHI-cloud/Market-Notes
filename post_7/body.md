@@ -2,9 +2,9 @@
 
 Being long vol is expensive. This is owing to three main factors:
  
-●	Rich implied-realised ratios – demand for protection means that implied vol trades rich to that ultimately realised, and hence a delta hedged straddle will in most instances fail to earn enough realised vol as to offset the implied vol paid to the market at inception;
-●	Negative vol roll-down. An upwards sloping vol term structure (the usual state of affairs) means that your position will be valued at progressively lower levels of implied vol as expiry approaches - hence you incur Vega losses just in virtue of the passage of time;
-●	Finally, being long vol necessitates being long optionality, and hence one incurs theta decay.
+●	Rich implied-realised ratios – demand for protection means that implied vol trades rich to that ultimately realised, and hence a delta hedged straddle will in most instances fail to earn enough realised vol as to offset the implied vol paid to the market at inception;/
+●	Negative vol roll-down. An upwards sloping vol term structure (the usual state of affairs) means that your position will be valued at progressively lower levels of implied vol as expiry approaches - hence you incur Vega losses just in virtue of the passage of time;/
+●	Finally, being long vol necessitates being long optionality, and hence one incurs theta decay./
  
 The question, then, is how to cheapen the costs of being long vol. One interesting way of doing so is by trading around the various ‘flows’ which tend to characterize the vol complex in many asset classes (rates and equities in particular). Below, we discuss a famous example from the rates vol complex – namely, Formosa callables.
  
