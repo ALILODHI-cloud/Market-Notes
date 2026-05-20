@@ -34,3 +34,4 @@ In principle, then, one could do the following:
 4.	Then, if rates do fall below that coupon, one enjoys vega PnL.
 Whether or not this is a feasible undertaking is something I have no idea about whatsoever.
 
+# Ali Lodhi
