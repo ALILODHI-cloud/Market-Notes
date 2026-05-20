@@ -15,8 +15,6 @@ In any case, if 1y10y > spot 10y, currently, what are the chances that in a year
 As Barclays’ Figure 25 demonstrates, it turns out that the 1y10y – 10 y differential is largely a function of the term premium. Performance of a simple carry strategy (that is, receiving the forward when forward > spot) is also positively correlated with term premium (we assume ACM is used here by Barclays), as shown in Barclays’ Figure 26.
 
 ![Alt_text](figures/figure2.jpg)
-
-![Alt_text](figures/figure3.jpg)
   
 More fully, we can fully express the 1y10y rate as = expectation of 10y in 1y + term premia + convexity premia. Just as a long position in the 10y rate is more positively convex than one in the 5y rate (that is, the asymmetry given by: PnL when rate goes down by 1%pts minus PnL when rate goes up by 1%, is greater, the longer the tenor – driven by the T(T+1) term in the second derivative of the price of a bond with respect to the market interest rate), so a long position in the 1y10y is more positively convex than one in the 10y. That should cause the 1y10y to be lower than it otherwise would be (the convexity premia is a negative number).  
 
