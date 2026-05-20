@@ -27,4 +27,4 @@ Environments in which correlation premia is rich tend also to be environments in
 
 The exposures borne by long-dispersion can differ markedly based on the relative weighting of single-stock vs index legs. 
 
-## Ali Lodhi
+### Ali Lodhi
