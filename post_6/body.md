@@ -21,7 +21,7 @@ Figure 3 (top); Figure 4 (bottom)
 
 ## Conclusion 
 
-The exposores borne by long-dispersion can differ markedly based on the relative weighting of single-stock vs index legs. 
+The exposures borne by long-dispersion can differ markedly based on the relative weighting of single-stock vs index legs. 
 
 
 **Ali Lodhi**
