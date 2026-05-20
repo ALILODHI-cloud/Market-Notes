@@ -1,4 +1,6 @@
-# Being long vol is expensive. This is owing to three main factors:
+# Formosa Callables & trading interest rate volatility
+
+Being long vol is expensive. This is owing to three main factors:
  
 ●	Rich implied-realised ratios – demand for protection means that implied vol trades rich to that ultimately realised, and hence a delta hedged straddle will in most instances fail to earn enough realised vol as to offset the implied vol paid to the market at inception;
 ●	Negative vol roll-down. An upwards sloping vol term structure (the usual state of affairs) means that your position will be valued at progressively lower levels of implied vol as expiry approaches - hence you incur Vega losses just in virtue of the passage of time;
