@@ -7,6 +7,7 @@ By Ali Lodhi.
 
 ## Latest Posts:
 
+- [**Optimal expressions for EURHUF downside (2026-05-02)**](post_11/body.md)
 - [**Skew in interest rate volatility**](post_10/body.md)
 - [**Vol-of-vol and skew**](post_9/body.md)
 - [**Systematic strategies in interest rate swaps**](post_8/body.md)
