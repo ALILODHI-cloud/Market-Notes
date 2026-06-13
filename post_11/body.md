@@ -1,6 +1,6 @@
 # Optimal expressions of EURHUF downside
  
-EURHUF downside has naturally become strongly bid. _Per_ Goldman, most of the appetite for EURHUF downside has come in vol-buying expressions, e.g., 6m to 1y tenor digital puts. This has led EURHUF vols to diverge significantly from its FX peers (Figure 1). This begs the question: are there expressions of EURHUF that do not entail buying already-rich base vols? Indeed, one might consider an EKO put. 
+EURHUF downside has naturally become strongly bid. _Per_ Goldman, most of the appetite for EURHUF downside has come in vol-buying expressions, e.g., 6m to 1y tenor digital puts. This has led EURHUF vols to diverge significantly from its FX peers. This begs the question: are there expressions of EURHUF that do not entail buying already-rich base vols? Indeed, one might consider an EKO put. 
 
 Consider for instance a 1y 350 put with 330 EKO. Below 350, the structure begins to make money. However, beyond 330, the entire structure 'knocks-out' - and the payoff is zero. Hence the view being expressed is that HUF will strengthen in a gradual, grinding fashion. Importantly, this expression is not long vol, as overly sharp strengthening of the HUF would lead to EKO. It follows that this structure should enjoy a better carry profile than, say, a 1y 340 digital put (Goldman's reference structure). 
 
