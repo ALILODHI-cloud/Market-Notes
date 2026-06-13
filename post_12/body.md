@@ -29,6 +29,4 @@ Some data/charts from Barclays:
 
 ![Alt_text](figures/figure4.jpg)
 
-![Alt_text](figures/figure5.jpg)
-
 ### Ali Lodhi
