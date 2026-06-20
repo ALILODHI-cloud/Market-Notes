@@ -24,4 +24,4 @@ In light of this guidance, we deem there to be asymmetry towards steepening of t
 
 In reality, i'd like to implement a swaption bull steepening structure, as I believe asymmetry, in particular, to be towards a dovish repricing of the Bank Rate overall. Yet this shall do for now. 
 
-###Ali Lodhi
+### Ali Lodhi
