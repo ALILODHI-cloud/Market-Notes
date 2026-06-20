@@ -1,4 +1,4 @@
-# JUZ27/JUZ26 (Dec 27 Sonia contract - Dec 26 Sonia contract) steepener
+# JUZ27/JUZ26 (Dec 27 SONIA contract - Dec 26 SONIA contract) steepener
 
 We are initating a steepener on the Dec 27 Dec 26 SONIA curve. The Dec 26 1-month SONIA contract currently prices 42.5bps of hikes through the end of 2026, and 46bps through the end of 2027 - giving a slope of 3.5bps. This is too flat, relative to (i) the macro backdrop and (ii) BOE communication from the April MPC. 
 
