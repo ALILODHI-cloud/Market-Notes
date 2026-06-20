@@ -15,7 +15,7 @@ We are going **long the July FFR-SOFR basis** at **-1bp**, targeting **+2bp**. T
 
 ## (2) Time series structure of the basis implies a July fair-value > -1
 
-Recent realized funding has already normalized: May printed +4.25bp, June +0.22bp, and the last-three-month average is +1.43bp. The basis is statistically persistent, even using HAC-robust t-stats:
+Recent realized funding has already normalized: May printed +4.25bp, June +0.22bp, and the last-three-month average is +1.43bp. Additionally, the basis demonstrates persistence over time:
 
 | Regression | Input for July | Beta | HAC t | p-value | R2 | July fitted |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
