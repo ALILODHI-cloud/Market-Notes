@@ -1,31 +1,34 @@
-# FFR-SOFR basis: July SOFR/FF at -1bp
+# FFR-SOFR basis: fading July funding fear
 
-The trade is to go **long July FFR-SOFR** at **-1bp**, targeting **+2bp**. This is the Barclays "long July SOFR/FF" recommendation, where the basis is defined as monthly-average **EFFR minus SOFR**. Negative prints mean SOFR is rich to Fed Funds, i.e. secured funding is tight. The thesis is simple: -1bp looks too low versus the historical distribution, recent run-rate, and July-specific seasonality.
+The trade is to go **long July FFR-SOFR** at **-1bp**, targeting **+2bp**. The fixing is the calendar-month average of **EFFR minus SOFR**; negative means SOFR is rich to Fed Funds, i.e. secured funding is tight. The thesis has two parts: the market is pricing a hawkish/tight funding outcome, while the actual funding backdrop looks soft.
 
-Implementation should use the July calendar-month average fixing, rather than a spot daily basis, to match the recommendation.
+![Distribution comparison](figures/figure1.svg)
 
-![Distribution of monthly-average FFR-SOFR](figures/figure1.svg)
+First, -1bp is cheap in the relevant distribution. Since SOFR inception, -1bp is the 30th percentile of monthly-average FFR-SOFR; even among quarter-end months it is only the 33rd percentile. July is not a quarter-end month, so the clean analogue is actually non-quarter-end months, where -1bp is the 29th percentile. In other words, the market is pricing July like a below-normal funding month despite the absence of the main calendar stress.
 
-Since SOFR inception there are 99 monthly observations. The mean is +0.20bp, the median is +0.47bp, and -1bp sits only around the 30th percentile. Put differently, roughly 70% of months have averaged above the proposed entry level. That alone does not make the trade compelling, but it says the market is pricing July below the central tendency of the realised basis.
+| Monthly-average sample | Median | -1bp percentile | Share above -1bp |
+| --- | ---: | ---: | ---: |
+| All months | +0.47bp | 30th | 70% |
+| Quarter-end months | +0.47bp | 33rd | 67% |
+| Non-quarter-end months | +0.68bp | 29th | 71% |
+| July months | -0.53bp | 38th | 63% |
 
-| Measure | Value |
-| --- | ---: |
-| Entry / target | -1bp / +2bp |
-| Sample | Apr-2018 to Jun-2026 |
-| Mean / median | +0.20bp / +0.47bp |
-| -1bp percentile | 30th |
-| Share above -1bp | 70% |
-| Last 3m average | +1.43bp |
-| Model July forecast | +0.3bp to +1.2bp |
+Second, conditions do not look tight. Recent realized funding has already normalized: May printed +4.25bp, June +0.22bp, and the last-three-month average is +1.43bp. The basis is persistent: last-month to next-month beta is 0.61, while prior-three-month average to next-month beta is 0.72, putting simple July forecasts at +0.3bp to +1.2bp.
 
-![Monthly FFR-SOFR history](figures/figure2.svg)
+![SOFR-IORB versus reserve share](figures/figure2.svg)
 
-Persistence strengthens the case. An AR(1) regression of next month's basis on last month's basis gives beta of 0.61, with a t-stat of 7.6. A trailing-three-month specification gives beta of 0.72, also with a t-stat of 7.6. Given June month-to-date was around +0.2bp and the last-three-month average was +1.4bp, these simple models put July at roughly +0.3bp to +1.2bp, comfortably above -1bp.
+The strongest fundamental evidence is the reserve-demand curve. Late last year, when reserves were in the same reserve-share zone, SOFR traded materially over IORB. By March 2026, a similar reserve share left SOFR roughly in line with IORB. Same scarcity, softer price: funding has structurally loosened.
 
-The funding story is consistent with this. Barclays' money-market framing is that July should remain soft: TGA is low for much of the month, reserve balances should average slightly above June, and the bill-supply rebuild is back-loaded. Their leg-by-leg fair value is SOFR around -6bp versus IORB and Fed Funds around -4bp, implying **SOFR/FF fair value near +2bp** versus -1bp priced.
+This is not a mystery. The [Fed's November 2025 eSLR final rule](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251125b.htm) explicitly aimed to reduce disincentives to low-risk activity such as Treasury intermediation and make leverage standards a backstop to risk-based capital requirements. Put simply, the risk-based ratio is the smart but model-dependent constraint; the leverage ratio is the dumb, hard backstop on total size. The reform made that backstop less binding.
 
-![July FFR-SOFR seasonality](figures/figure3.svg)
+![GSIB leverage capacity](figures/figure3.svg)
 
-The risk is the left tail. Quarter-end pressure can spill into early July; faster bill issuance can drain reserves; and higher leverage demand can cheapen repo. The 2025 funding squeeze shows that the basis can gap to -7bp/-12bp. But at -1bp, the trade is being entered below history, below the recent run-rate, and below fair value.
+Using Q1 2026 FR Y-15 filings, Barclays estimates excess GSIB leverage capacity as:
+
+`excess capacity = (risk-based-minimum Tier 1 capital / new eSLR minimum) - current TLE`
+
+TLE is Total Leverage Exposure, the leverage-ratio denominator. Even if banks return excess capital and hold only the risk-based minimum, the estimate still leaves roughly **$4tn** of spare leverage capacity before leverage binds. That is the intermediation firepower that keeps repo smooth.
+
+The risk is that July bill supply and the TGA rebuild drain reserves faster than expected. Barclays' rebuttal is that the rebuild is late-month and methodical, average July reserves should remain around $3.0-3.1tn, SOFR has low bill-supply sensitivity, and dealer capacity is now abundant. Thus -1bp prices the fear; the fundamentals argue for fair value closer to +2bp.
 
 ### Ali Lodhi

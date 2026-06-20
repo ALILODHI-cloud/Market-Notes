@@ -1,0 +1,5 @@
+bucket,n,mean_bp,median_bp,minus1_percentile,share_above_minus1_pct,min_bp,max_bp
+all,99,0.204,0.474,30.3,69.7,-21.900,9.048
+quarter_end_months,33,-0.206,0.474,33.3,66.7,-21.900,9.048
+non_quarter_end_months,66,0.409,0.677,28.8,71.2,-11.864,5.857
+july,8,0.451,-0.532,37.5,62.5,-4.682,4.857
