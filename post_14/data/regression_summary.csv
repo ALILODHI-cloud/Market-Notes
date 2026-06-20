@@ -1,0 +1,3 @@
+spec,input,beta,ols_t,hac_t,p,r2,fitted
+Last month -> next month,June basis = +0.22bp,0.6065,7.5667,4.2000,<0.001,0.3736,0.2672
+Prior 3m average -> next month,Apr-May-Jun avg = +1.43bp,0.7219,7.6199,6.6000,<0.001,0.3818,1.1783
