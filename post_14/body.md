@@ -1,6 +1,6 @@
 # Long July SOFR/FFR Basis
 
-The trade is to go **long July FFR-SOFR** at **-1bp**, targeting **+2bp**. The fixing is the calendar-month average of **EFFR minus SOFR**; a negative basis means SOFR is rich to Fed Funds, i.e. secured funding is tight. The thesis has three parts: (1) at -1 July funding is priced to be tight; (2) the time series structure of the basis implies a July fair-value > -1; (3) qualitatively, the funding backdrop in fact looks soft.
+We are going **long the July FFR-SOFR basis** at **-1bp**, targeting **+2bp**. The fixing is the calendar-month average of **EFFR minus SOFR**; a negative basis means SOFR is rich to Fed Funds, i.e. secured funding is tight. The thesis has three parts: (1) at -1 July funding is priced to be tight; (2) the time series structure of the basis implies a July fair-value > -1; (3) qualitatively, the funding backdrop in fact looks soft.
 
 ## (1) At -1, July funding conditions are priced to be tight 
 
