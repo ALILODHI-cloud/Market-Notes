@@ -1,32 +1,31 @@
-# SOFR/FFR basis: buying the reserve-scarcity tail
+# FFR-SOFR basis: July SOFR/FF at -1bp
 
-The clean expression is to be **long SOFR versus Fed Funds**: pay SOFR OIS and receive Fed Funds OIS, maturity-matched and DV01-neutral, preferably in the 6m-1y sector. The view is not that funding stress is imminent. It is that the distribution of SOFR-FFR is increasingly asymmetric: the spread can grind around zero in an abundant-reserves regime, but the right tail becomes valuable as repo balance-sheet capacity, Treasury collateral supply, and reserve scarcity re-enter the price.
+The trade is to go **long July FFR-SOFR** at **-1bp**, targeting **+2bp**. This is the Barclays "long July SOFR/FF" recommendation, where the basis is defined as monthly-average **EFFR minus SOFR**. Negative prints mean SOFR is rich to Fed Funds, i.e. secured funding is tight. The thesis is simple: -1bp looks too low versus the historical distribution, recent run-rate, and July-specific seasonality.
 
-![SOFR minus EFFR](figures/figure1.svg)
+Implementation should use the July calendar-month average fixing, rather than a spot daily basis, to match the recommendation.
 
-| Leg | Direction | What it owns |
-| --- | --- | --- |
-| SOFR OIS | Pay fixed / receive SOFR | Realized secured funding richness |
-| Fed Funds OIS | Receive fixed / pay FFR | Hedge to the policy-rate path |
-| Net trade | Long SOFR-FFR basis | Repo scarcity, quarter-end balance-sheet pressure, reserve-drain convexity |
+![Distribution of monthly-average FFR-SOFR](figures/figure1.svg)
 
-Implementation matters: use identical start/end dates, clear on the same holiday calendar, and avoid quarter-end-only entry unless explicitly buying that event risk.
+Since SOFR inception there are 99 monthly observations. The mean is +0.20bp, the median is +0.47bp, and -1bp sits only around the 30th percentile. Put differently, roughly 70% of months have averaged above the proposed entry level. That alone does not make the trade compelling, but it says the market is pricing July below the central tendency of the realised basis.
 
-The attraction is that FFR is tightly anchored by the Fed's administered-rate corridor, while SOFR is the marginal secured funding price. When reserves are plentiful and dealers have balance sheet, SOFR should sit close to, or slightly through, FFR. But if reserves become less ample, the adjustment first appears in repo: SOFR fixes higher, the spread widens, and the same trade starts to look like a cheap option on funding-market tightness.
-
-![Fed liquidity cushion](figures/figure2.svg)
-
-| Metric | Latest / sample |
+| Measure | Value |
 | --- | ---: |
-| SOFR-FFR latest | 0.0bp (2026-06-17) |
-| SOFR-FFR 1m average | -1.5bp |
-| SOFR-FFR 10th / median / 90th percentile | -5.0 / -1.0 / 5.0bp |
-| Post-SOFR max | +295.0bp (2019-09-17) |
-| ON RRP | $0.00tn (2026-06-18) |
-| Reserve balances | $3.03tn (2026-06-17) |
+| Entry / target | -1bp / +2bp |
+| Sample | Apr-2018 to Jun-2026 |
+| Mean / median | +0.20bp / +0.47bp |
+| -1bp percentile | 30th |
+| Share above -1bp | 70% |
+| Last 3m average | +1.43bp |
+| Model July forecast | +0.3bp to +1.2bp |
 
-This is why the trade is better framed as a basis option than a pure carry position. Spot basis is unexciting, and recent realized spreads have been slightly negative. But the RRP buffer has effectively been spent, so subsequent liquidity drains matter more for reserves proper. Treasury bill supply, quarter-end dealer constraints, or a faster-than-expected reserve drawdown can all cheapen secured funding without requiring a meaningful change in the expected Fed path.
+![Monthly FFR-SOFR history](figures/figure2.svg)
 
-The key risk is that the Fed remains comfortably in an ample-reserves regime, slows QT early, or repo facilities cap any widening. In that world the position bleeds small carry and the spread mean-reverts around zero. That is acceptable only if entry is close to flat and the position is sized as a convex funding hedge, not as a high-Sharpe carry trade.
+Persistence strengthens the case. An AR(1) regression of next month's basis on last month's basis gives beta of 0.61, with a t-stat of 7.6. A trailing-three-month specification gives beta of 0.72, also with a t-stat of 7.6. Given June month-to-date was around +0.2bp and the last-three-month average was +1.4bp, these simple models put July at roughly +0.3bp to +1.2bp, comfortably above -1bp.
+
+The funding story is consistent with this. Barclays' money-market framing is that July should remain soft: TGA is low for much of the month, reserve balances should average slightly above June, and the bill-supply rebuild is back-loaded. Their leg-by-leg fair value is SOFR around -6bp versus IORB and Fed Funds around -4bp, implying **SOFR/FF fair value near +2bp** versus -1bp priced.
+
+![July FFR-SOFR seasonality](figures/figure3.svg)
+
+The risk is the left tail. Quarter-end pressure can spill into early July; faster bill issuance can drain reserves; and higher leverage demand can cheapen repo. The 2025 funding squeeze shows that the basis can gap to -7bp/-12bp. But at -1bp, the trade is being entered below history, below the recent run-rate, and below fair value.
 
 ### Ali Lodhi
