@@ -28,11 +28,15 @@ Recent realized funding has already normalized: May printed +4.25bp, June +0.22b
 
 The softness of prevailing funding conditions is best demonstrated by the above figure. Since March 1st, reserve levels have declined to ~11% of bank assets - while SOFR has remained broadly in-line with IORB. In contrast, October/November 2025 saw similiar reserve levels coincide with SOFR 10-30bps richer than IORB. Hence, for the same level of reserves, funding conditions today are markedly softer than before. 
 
-This flattening of the reserve demand curve is best explained by the FED's 'e-SLR' reform instituted in November 2025 (see https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251125b.htm). Simply put, the effect of such reform was to increase dealer balance sheet capacity to engage in treasury intermediation (among other low-risk activities). 
+This flattening of the reserve demand curve is best explained by the FED's 'e-SLR' reform instituted in November 2025 (see https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251125b.htm).
 
-But how much intermediation capacity ultimately remains? We can arrive at an estimate in the following fashion. Current TLE (total leverage exposure) = current tier 1 capital / current capital ratio. Max possible TLE under the most pessimistic assumptions about total tier 1 capital = min total tier 1 capital allowable under risk-weighted capital ratio / eSLR min. required capital ratio. We then compute max TLE - current TLE to get remaining leverage capacity. On this model, Q1 2026 FR Y-15 data imply around **$4tn** of remaining/excess leverage capacity. This auguers soft-funding conditions ahead. 
+Banks face two parallel capital regimes: a **risk-based** one (capital ÷ risk-weighted assets) and a **leverage** one (capital ÷ total leverage exposure), the latter a risk-blind backstop. For the eight US GSIBs the leverage stack carried a flat **2%** add-on on top of the 3% minimum (= 5%). The reform replaced that flat 2% with **50% of each bank's GSIB surcharge** — the surcharge being the extra, risk-based capital charge scaled to a bank's systemic importance (computed on the "Method 1" basis) — so the requirement now scales by bank rather than a one-size 2%. The effective leverage minimum falls from **5% to ~3.5–4.25%**, with the explicit aim of returning the eSLR to a **backstop** rather than a binding constraint, so it stops penalizing low-risk, balance-sheet-intensive activity such as **Treasury intermediation and repo financing**. The effect: expanded dealer balance-sheet capacity.
 
-`Excess leverage capacity = (Tier 1 capital / new eSLR minimum) - current TLE`
+But how much intermediation capacity remains? A bank's **maximum allowable TLE = Tier-1 capital ÷ minimum (eSLR) leverage ratio**. Under the most pessimistic case for capital — banks return excess capital down to the **minimum required by the (binding) risk-based requirement** — divided by the **new lower eSLR minimum**, we get a conservative TLE ceiling; subtracting **current (observed) TLE** yields remaining capacity:
+
+$$\text{remaining leverage capacity} = \frac{\text{min Tier-1 capital (risk-based)}}{\text{eSLR}_{\min}} - \text{current TLE}$$
+
+On **Q1-2026 FR Y-15** data this implies roughly **\$4tn of excess leverage capacity** — i.e., even stripped to the bone, the leverage ratio is far from binding (the risk-based requirement binds first). This augurs soft funding ahead.
 
 ![GSIB leverage capacity](figures/figure2.svg)
 
