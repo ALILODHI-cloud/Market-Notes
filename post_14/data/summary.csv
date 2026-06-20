@@ -1,0 +1,16 @@
+metric,value
+basis_date,2026-06-17
+latest_spread_bp,0.0000
+avg_1m_bp,-1.4762
+avg_3m_bp,-1.2381
+p10_bp,-5.0000
+p50_bp,-1.0000
+p90_bp,5.0000
+max_bp,295.0000
+max_date,2019-09-17
+min_bp,-15.0000
+min_date,2020-03-18
+rrp_date,2026-06-18
+rrp_tn,0.0000
+reserves_date,2026-06-17
+reserves_tn,3.0334
