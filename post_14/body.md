@@ -36,6 +36,8 @@ But how much intermediation capacity ultimately remains? We can arrive at an est
 
 ![GSIB leverage capacity](figures/figure2.svg)
 
+## Conclusion
+
 Other considerations: 
 
 (1) dealers are increasingly short treasury futures to hedge growing treasury inventories. Economically this is equivalent to a basis trade. However dealers can borrow at tri-party which is generally lower than GC (the rate at which leveraged players will borrow). Hence the basis is likely to compress below a level where it is profitable for leveraged players to engage in the basis trade themselves. This necessarily implies less upward pressure on SOFR. 
