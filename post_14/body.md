@@ -1,4 +1,4 @@
-# FFR-SOFR basis: fading July funding fear
+# Long July SOFR/FFR Basis
 
 The trade is to go **long July FFR-SOFR** at **-1bp**, targeting **+2bp**. The fixing is the calendar-month average of **EFFR minus SOFR**; negative means SOFR is rich to Fed Funds, i.e. secured funding is tight. The thesis has two parts: the market is pricing a hawkish/tight funding outcome, while the actual funding backdrop looks soft.
 
