@@ -1,0 +1,47 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='920' height='430' viewBox='0 0 920 430'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='70' y='30' font-family='Arial, sans-serif' font-size='22' font-weight='700' fill='#243447'>July -1bp versus historical distributions</text>
+<text x='70' y='52' font-family='Arial, sans-serif' font-size='13' fill='#6b7280'>Monthly-average FFR-SOFR; percentile rank of -1bp in each sample</text>
+<line x1='241.2' x2='241.2' y1='64' y2='372' stroke='#d7dde5'/>
+<text x='241.2' y='394' text-anchor='middle' font-family='Arial, sans-serif' font-size='11' fill='#6b7280'>-20</text>
+<line x1='332.5' x2='332.5' y1='64' y2='372' stroke='#d7dde5'/>
+<text x='332.5' y='394' text-anchor='middle' font-family='Arial, sans-serif' font-size='11' fill='#6b7280'>-15</text>
+<line x1='423.8' x2='423.8' y1='64' y2='372' stroke='#d7dde5'/>
+<text x='423.8' y='394' text-anchor='middle' font-family='Arial, sans-serif' font-size='11' fill='#6b7280'>-10</text>
+<line x1='515.0' x2='515.0' y1='64' y2='372' stroke='#d7dde5'/>
+<text x='515.0' y='394' text-anchor='middle' font-family='Arial, sans-serif' font-size='11' fill='#6b7280'>-5</text>
+<line x1='606.2' x2='606.2' y1='64' y2='372' stroke='#d7dde5'/>
+<text x='606.2' y='394' text-anchor='middle' font-family='Arial, sans-serif' font-size='11' fill='#6b7280'>0</text>
+<line x1='697.5' x2='697.5' y1='64' y2='372' stroke='#d7dde5'/>
+<text x='697.5' y='394' text-anchor='middle' font-family='Arial, sans-serif' font-size='11' fill='#6b7280'>5</text>
+<line x1='788.8' x2='788.8' y1='64' y2='372' stroke='#d7dde5'/>
+<text x='788.8' y='394' text-anchor='middle' font-family='Arial, sans-serif' font-size='11' fill='#6b7280'>10</text>
+<line x1='880.0' x2='880.0' y1='64' y2='372' stroke='#d7dde5'/>
+<text x='880.0' y='394' text-anchor='middle' font-family='Arial, sans-serif' font-size='11' fill='#6b7280'>15</text>
+<line x1='588.0' x2='588.0' y1='58' y2='372' stroke='#d97706' stroke-width='2.2' stroke-dasharray='5 4'/>
+<text x='594.0' y='50' font-family='Arial, sans-serif' font-size='12' fill='#d97706'>-1bp priced</text>
+<text x='138' y='120' text-anchor='end' font-family='Arial, sans-serif' font-size='13' fill='#243447'>All months</text>
+<line x1='206.6' x2='771.4' y1='116' y2='116' stroke='#d7dde5' stroke-width='7' stroke-linecap='round'/>
+<circle cx='610.0' cy='116' r='6' fill='#2563eb'/>
+<circle cx='614.9' cy='116' r='6' fill='#059669'/>
+<text x='880' y='120' text-anchor='end' font-family='Arial, sans-serif' font-size='12' fill='#6b7280'>n=99; -1 is 30th pctile</text>
+<text x='138' y='182' text-anchor='end' font-family='Arial, sans-serif' font-size='13' fill='#243447'>Quarter-end months</text>
+<line x1='206.6' x2='771.4' y1='178' y2='178' stroke='#d7dde5' stroke-width='7' stroke-linecap='round'/>
+<circle cx='602.5' cy='178' r='6' fill='#2563eb'/>
+<circle cx='614.9' cy='178' r='6' fill='#059669'/>
+<text x='880' y='182' text-anchor='end' font-family='Arial, sans-serif' font-size='12' fill='#6b7280'>n=33; -1 is 33th pctile</text>
+<text x='138' y='244' text-anchor='end' font-family='Arial, sans-serif' font-size='13' fill='#243447'>Non-QE months</text>
+<line x1='389.7' x2='713.1' y1='240' y2='240' stroke='#d7dde5' stroke-width='7' stroke-linecap='round'/>
+<circle cx='613.7' cy='240' r='6' fill='#2563eb'/>
+<circle cx='618.6' cy='240' r='6' fill='#059669'/>
+<text x='880' y='244' text-anchor='end' font-family='Arial, sans-serif' font-size='12' fill='#6b7280'>n=66; -1 is 29th pctile</text>
+<text x='138' y='306' text-anchor='end' font-family='Arial, sans-serif' font-size='13' fill='#243447'>July months</text>
+<line x1='520.8' x2='694.9' y1='302' y2='302' stroke='#d7dde5' stroke-width='7' stroke-linecap='round'/>
+<circle cx='614.5' cy='302' r='6' fill='#2563eb'/>
+<circle cx='596.6' cy='302' r='6' fill='#059669'/>
+<text x='880' y='306' text-anchor='end' font-family='Arial, sans-serif' font-size='12' fill='#6b7280'>n=8; -1 is 38th pctile</text>
+<line x1='150' x2='880' y1='372' y2='372' stroke='#596579'/>
+<text x='460.0' y='404' text-anchor='middle' font-family='Arial, sans-serif' font-size='12' fill='#6b7280'>monthly average FFR-SOFR, bp</text>
+<circle cx='150' cy='395' r='5' fill='#2563eb'/><text x='160' y='399' font-family='Arial, sans-serif' font-size='11' fill='#243447'>mean</text><circle cx='220' cy='395' r='5' fill='#059669'/><text x='230' y='399' font-family='Arial, sans-serif' font-size='11' fill='#243447'>median</text>
+<text x='892' y='420' text-anchor='end' font-family='Arial, sans-serif' font-size='10' fill='#6b7280'>Source: NY Fed EFFR/SOFR via prior analysis.</text>
+</svg>

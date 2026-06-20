@@ -1,0 +1,13 @@
+metric,value
+entry_bp,-1.0000
+target_bp,2.0000
+all_month_minus1_percentile,30.3030
+quarter_end_month_minus1_percentile,33.3333
+july_minus1_percentile,37.5000
+last3m_avg_bp,1.4272
+may_2026_monthly_basis_bp,4.2500
+june_2026_monthly_basis_bp,0.2220
+ar1_beta,0.6065
+trailing3m_beta,0.7219
+barclays_conservative_gsib_capacity_tn,3.9660
+fed_eslr_release,https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251125b.htm
