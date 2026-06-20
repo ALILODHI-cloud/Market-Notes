@@ -22,7 +22,7 @@ This is not a high-precision forecast--R2 is only around 0.38--but it says the c
 
 ![Reserve demand curve](figures/figure1.svg)
 
-The fundamental evidence is the reserve-demand curve. Repo rates have firmed recently, reflecting bill settlements, GSE cash outflows, and normal month-end pressure. Yet reserve demand still looks much flatter than in Q4. Since March 1, reserves have declined to roughly 11% of bank assets, but SOFR has remained broadly in line with IORB. In October/November last year, similar reserve levels had SOFR printing 10-30bp above IORB. Same reserve scarcity, softer funding price: conditions have structurally loosened.
+The fundamental evidence is Barclays' SOFR-IORB reserve-demand curve. Repo rates have firmed recently, reflecting bill settlements, GSE cash outflows, and normal month-end pressure. Yet reserve demand still looks much flatter than in Q4. Since March 1, reserves have declined to roughly 11% of bank assets, but SOFR has remained broadly in line with IORB. In October/November last year, similar reserve levels had SOFR printing 10-30bp above IORB. Same reserve scarcity, softer funding price: conditions have structurally loosened.
 
 This loosening is linked to the [Fed's November 2025 eSLR final rule](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251125b.htm), which aimed to reduce disincentives for low-risk activity such as Treasury intermediation and restore leverage standards as a backstop. The risk-based capital ratio is Tier 1 capital divided by risk-weighted assets; it is risk-sensitive but model-dependent. The supplementary leverage ratio is Tier 1 capital divided by Total Leverage Exposure (TLE); it ignores risk weights and caps total balance-sheet size. The enhanced SLR had become too binding for low-risk, balance-sheet-intensive repo/Treasury activity. The reform lowered that constraint.
 
@@ -32,8 +32,8 @@ The capacity calculation is:
 
 `excess leverage capacity = (Tier 1 capital / new eSLR minimum) - current TLE`
 
-For a conservative case, set Tier 1 capital to the minimum required by the risk-based capital rule--as if excess capital is returned to shareholders. Even then, Q1 2026 FR Y-15 data imply around **$4tn** of excess leverage capacity. Banks used only roughly $300-400bn for repo/reverse repo in Q1, leaving about $1tn of repo runway if that usage ratio holds.
+The first bars show current TLE capacity. The second group is the conservative case: use the lower post-reform minimum leverage requirement, but also reduce Tier 1 capital to the minimum required by the risk-based capital rule--as if excess capital is returned to shareholders. Even then, Q1 2026 FR Y-15 data imply around **$4tn** of excess leverage capacity. Banks used only roughly $300-400bn for repo/reverse repo in Q1, leaving about $1tn of repo runway if that usage ratio holds.
 
-Demand also looks subdued. Cash-futures basis and RV opportunities have become less attractive, reducing leveraged-fund repo demand. Asset managers have cut long futures exposure, partly as MBS duration extension created hedging flows, and dealers can provide more futures and warehouse more Treasuries because SLR capacity is larger. Thus -1bp prices a July reserve-drain fear; the observed funding curve and intermediation backdrop argue for fair value closer to +2bp.
+Demand also looks subdued. Cash-futures basis and RV opportunities have become less attractive, reducing leveraged-fund repo demand; Treasury spline errors are low, helped by buybacks, so relative-value returns are less compelling. Asset managers have cut long futures exposure, partly as MBS duration extension created hedging flows. Dealers, meanwhile, can supply more futures and warehouse larger Treasury inventories because SLR capacity is larger and funding costs are lower. Thus -1bp prices a July reserve-drain fear; the observed funding curve and intermediation backdrop argue for fair value closer to +2bp.
 
 ### Ali Lodhi
