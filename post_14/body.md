@@ -40,7 +40,7 @@ But how much intermediation capacity ultimately remains? We can arrive at an est
 
 Other considerations: 
 
-(1) dealers are increasingly short treasury futures to hedge growing treasury inventories. Economically this is equivalent to a basis trade. However dealers can borrow at tri-party which is generally lower than GC (the rate at which leveraged players will borrow). Hence the basis is likely to compress below a level where it is profitable for leveraged players to engage in the basis trade themselves. This necessarily implies less upward pressure on SOFR. 
+(1) Dealers are increasingly short treasury futures to hedge growing treasury inventories. Economically this is equivalent to a basis trade. However dealers can borrow at tri-party which is generally lower than GC (the rate at which leveraged players will borrow). Hence the basis is likely to compress below a level where it is profitable for leveraged players to engage in the basis trade themselves. This necessarily implies less upward pressure on SOFR. 
 
 (2) Rates are higher --> MBS duration is extended --> asset managers reduce long duration exposure by trimming long treasury futures positioning. This reduces the relative richness of treasury futures vs cash treasuries, thereby further compressing the basis - and further reducing its attractivness to leveraged players. Again, less upward pressure on SOFR.
 
