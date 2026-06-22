@@ -17,7 +17,7 @@ Under equal vega notionals, the PnL of long dispersion is dominated by single-na
 In essence: long dispersion = short correlation carry trade + long single-stock volatility trade. The former pays the theta on the latter; the latter serves as a hedge to the former.
 Figure 3 (top); Figure 4 (bottom)
 
-![Alt_text](figures/figure2.jpg)
+![Alt_text](figures/figure_2.jpg)
 
 ## When to do what?
 
