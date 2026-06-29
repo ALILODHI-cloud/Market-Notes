@@ -124,12 +124,12 @@ Two of five worst days had the right curve; three did not. On the two correct da
 
 ## Synthesis
 
-| Phase | Level + curve | Contrary days | Correct curve on contrary | Return / \|max DD\| outright | Return / \|max DD\| curve | Max DD ratio |
-|-------|---------------|---------------|---------------------------|-------------------------------|---------------------------|--------------|
-| **I** | Bear + bear flat | 29% | 50% | **8.3** | 6.1 | 2.4× |
-| **II** | Bull + bull steep | 33% | 33% | **3.7** | 3.3 | 3.9× |
-| **III** | Bear + bear steep | 32% | 50% | 2.1 | **2.1** | 3.0× |
-| **IV** | Bull + bull flat | 30% | 33% | **2.6** | 0.4 | 2.1× |
+| Phase | Level + curve | Contrary days | Correct curve on contrary | Return / \|max DD\| outright | Return / \|max DD\| curve | Outright / curve score |
+|-------|---------------|---------------|---------------------------|-------------------------------|---------------------------|------------------------|
+| **I** | Bear + bear flat | 29% | 50% | **8.3** | 6.1 | 1.4× |
+| **II** | Bull + bull steep | 33% | 33% | **3.7** | 3.3 | 1.1× |
+| **III** | Bear + bear steep | 32% | 50% | 2.1 | **2.1** | 1.0× |
+| **IV** | Bull + bull flat | 30% | 33% | **2.6** | 0.4 | 6.5× |
 
 Every phase is roughly thirty percent contrary days. The proportion of those days on which the curve moves correctly is necessary but not sufficient — what matters is whether the **worst outright sessions** fall on correctly-moving curve days.
 
