@@ -1,10 +1,10 @@
-# Dec27−Dec26 on ICE 3M SONIA: four curve regimes since the Iran shock
-
-*Follow-up to [Dec26/Dec27 SONIA curve steepener (2026-06-08)](../post_13/body.md). ICE 3M SONIA futures **J8Z26 / J8Z27** (Barchart EOD), 2 Mar – 29 Jun 2026.*
+# Dec27−Dec26 on ICE 3M SONIA: four curve regimes since onset of Iran conflict
 
 After the Iran shock, the Dec27−Dec26 belly did not behave as a single trade. It ran through four separable regimes — each with its own level move (rates up or down over the window) and its own curve move (steepening or flattening). In every regime the same question arises: should you have expressed the view **outright** on Dec-26, or through the **spread** aligned with the curve shape?
 
-The answer is not in the average session. It is in the **contrary days** — roughly thirty percent of every phase — when the front end moves against the prevailing level trend, and above all in the **worst outright days**, when the level bet hurts most. On those days, did the curve still do what the phase required? And did that translate into a better return per unit of tail risk?
+The answer is not in the average session. It is in the **contrary days** — roughly thirty percent of every phase — when the front end moves against the prevailing level trend, and above all in the **worst outright days**, when the level bet hurts most. On those days, did the curve still do what the phase required? And did that translate into a better return per unit of tail risk (defined as ratio of total return to absolute value of max DD). 
+
+For example: if a particular phase saw Dec 26 outright rally, and the curve bull steepen, did the days on which Dec 26 sold-off the most see the curve bear steepen? If so, did such steepening cushion the PnL of a steepener position enough, such that the steepener's ratio of total return/abs(max DD) beat that of an outright Dec 26 long?
 
 ---
 
@@ -12,7 +12,7 @@ The answer is not in the average session. It is in the **contrary days** — rou
 
 We use ICE 3M compounded SONIA futures J8Z26 (Dec-26) and J8Z27 (Dec-27). The spread is Dec27 minus Dec26 in basis points. The sample runs from 2 March 2026, the first post-weekend session after the shock, through 29 June.
 
-A **contrary day** is any session where the daily change in the Dec-26 implied rate opposes the phase's level direction — no size threshold. In a bear phase (rates net higher over the window), contrary means Dec-26 fell that day. In a bull phase (rates net lower), contrary means Dec-26 rose. An **aligned day** is the reverse.
+A **contrary day** is any session where the daily change in the Dec-26 implied rate opposes the phase's level direction — no size threshold. In a bear phase (rates net higher over the window), contrary means Dec-26 fell that day. In a bull phase (rates net lower), contrary means Dec-26 rose.
 
 The **correct curve move** depends on the phase shape: flattening (bear, bull, or mixed) in flat phases; steepening in steep phases. The outright benchmark matches the level: short Dec-26 in bear phases, long Dec-26 in bull phases. The curve alternative is the aligned spread — flattener (long Dec-26 / short Dec-27) in flattening phases, steepener (long Dec-27 / short Dec-26) in steepening phases.
 
