@@ -7,6 +7,7 @@ By Ali Lodhi.
 
 ## Latest Posts:
 
+- [**Dec27−Dec26 SONIA: four curve regimes since the Iran shock (2026-06-29)**](post_15/body.md)
 - [**Long July SOFR/FFR basis (2026-06-09)**](post_14/body.md)
 - [**Dec26/Dec27 SONIA curve steepener (2026-06-08)**](post_13/body.md)
 - [**EUR 5s10s30s: Mortgage Convexity Hedging Redux? (2026-05-14)**](post_12/body.md)
