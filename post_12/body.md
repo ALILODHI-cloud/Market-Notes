@@ -1,9 +1,9 @@
 # EUR 5s10s30s: Mortgage Convexity Hedging Redux?
 
-The EUR 5s10s30s became historically dislocated in 2022, with the 10s cheapening in an outsize manner (figure 1). A key driver of this cheapening were paying flows in the EUR belly, themselves a result of mortgage convexity hedging on the part of European banks.
+The EUR 5s10s30s became historically dislocated in 2022, with the 10s cheapening in an outsize manner on the curve (see figure, below). A key driver of this cheapening were paying flows in the EUR belly, themselves a result of mortgage convexity hedging on the part of European banks.
 
 
-![Alt_text](figures/figure1.jpg)
+
 
 
 Banks are in the business of maturity transformation; they borrow short, and lend long. In other words, their 'duration gap' is positive; the duration of their assets is longer than that of their liabilities. 
@@ -28,5 +28,7 @@ Some data/charts from Barclays:
 ![Alt_text](figures/figure3.jpg)
 
 ![Alt_text](figures/figure4.jpg)
+
+![Alt_text](figures/figure1.jpg)
 
 ### Ali Lodhi
