@@ -1,5 +1,5 @@
 # Skew in interest rate volatility
- 
+
 Imagine one is long a high-strike payer swaption and short a low-strike receiver swaption. The position begins as vega neutral, and the intention is to keep it as such. Then, rates sell-off, and now the payer leg moves closer to being ITM – and the receiver leg further OTM. Because an option closer to ITM has higher vega, the position’s net vega is now positive. To re-hedge, you sell the now-expensive payer (and buy a cheaper, further OTM one) and buy-back the now-cheap receiver (and sell a more expensive, closer to ITM one). Clearly, this re-hedging is profitable.
  
 However when rates rally, one ends up selling a cheap payer (and buying a more expensive one) and buying-back an expensive receiver (and selling a cheaper one). Clearly this re-hedging is unprofitable.
