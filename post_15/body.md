@@ -2,7 +2,9 @@
 
 Following the onset of the Iran conflict, the Dec-27 - Dec-26 spread ran through four separable regimes. In each, Dec-26 either rallied or sold off. At the same time, the curve either steepened or flattened, and did so either bullishly or bearishly. The question in each regime is whether the duration outcome  was better expressed outright in Dec-26, or through the curve. Specifically: which expression delivered the better ratio of total return to absolute maximum drawdown?
 
-We like curve trades when they express an outright duration view more asymmetrically. If I am long duration, and the curve bull steepens along the modal path, a steepener can pay on the realisation of that view. If hawkish shocks also produce bear steepening, the same steepener can cushion the bad days too. In that case, the curve is not a separate view so much as a better-shaped way of being long duration. The problem is that curve behaviour can flip across states: the modal path may be steepening, while contrary shocks bear-flatten. 
+We like curve trades when they express an outright duration view more asymmetrically. Suppose duration rallies, and the curve bull steepens. However on bad days when duration sells-off, the curve also steepens - just this  time, bear steepening. Thus, over the full sample a steepener is long duration, and also provides a cushion against hawkish shocks along the way. The problem is that curve behaviour can flip across bull/bear days: over the full sample we could have bull steepening, yet upon hawkish duration shocks we could have, say, bear flattening. 
+
+I need to know a priori: the curve behaviour that my modal duration view corresponds to, but also the curve behavior I can expect on days in which duration moves contrary to my modal view. is this all possible with a sufficiently fine-tuned economic logic? That is a subject for later. Right now we focus on whether curve trades were better ways of expressing duration views than outright ones - in UK rates since the onset of the Iran conflict. 
 
 ---
 
