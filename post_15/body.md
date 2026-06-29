@@ -4,7 +4,6 @@ Following the onset of the Iran conflict, the Dec-27 - Dec-26 spread ran through
 
 We like curve trades when they express an outright duration view more asymmetrically. If I am long duration, and the curve bull steepens along the modal path, a steepener can pay on the realisation of that view. If hawkish shocks also produce bear steepening, the same steepener can cushion the bad days too. In that case, the curve is not a separate view so much as a better-shaped way of being long duration. The problem is that curve behaviour can flip across states: the modal path may be steepening, while contrary shocks bear-flatten. This note asks, phase by phase, whether the curve behaved correctly on the days that mattered most.
 
-We like sophisticated ways if exoressing an outright view on duration. if a curve expression pays both on the realisation of my duration view, and on shocks to the contrary, it is a more asymmetric way of simply being long/short duration outright. If I have a long duration view, and the curve bull steepens over the sample, yet bear steepens upon hawkish shocks - why not put on a steepener instead? Unfortunately, sometimes the curve behaviour associated with my modal duration view is contrary to that associated with the converse of my modal duration view (i.e., the modal path is steepening, yet hawkish shocks induce bear flattening). 
 ---
 
 ## Method
