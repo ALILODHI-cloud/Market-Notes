@@ -1,6 +1,6 @@
 # Dec27−Dec26 on ICE 3M SONIA: four curve regimes since onset of Iran conflict
 
-Following the onset of the Iran conflict, the Dec-27 - Dec-26 spread ran through four separable regimes. In each, Dec-26 either rallied or sold off. At the same time, the curve either steepened or flattened, and did so either bullishly or bearishly. The question in each regime is whether the view was better expressed outright in Dec-26, or through the curve. Specifically: which expression delivered the better ratio of total return to absolute maximum drawdown?
+Following the onset of the Iran conflict, the Dec-27 - Dec-26 spread ran through four separable regimes. In each, Dec-26 either rallied or sold off. At the same time, the curve either steepened or flattened, and did so either bullishly or bearishly. The question in each regime is whether the duration outcome  was better expressed outright in Dec-26, or through the curve. Specifically: which expression delivered the better ratio of total return to absolute maximum drawdown?
 
 We like curve trades when they express an outright duration view more asymmetrically. If I am long duration, and the curve bull steepens along the modal path, a steepener can pay on the realisation of that view. If hawkish shocks also produce bear steepening, the same steepener can cushion the bad days too. In that case, the curve is not a separate view so much as a better-shaped way of being long duration. The problem is that curve behaviour can flip across states: the modal path may be steepening, while contrary shocks bear-flatten. 
 
@@ -44,7 +44,7 @@ Four of fourteen days (29%) were contrary to the net change — the front end fe
 | 16 Mar | −4.0 | +3.0 | −4.0 | Bull flattening |
 | 17 Mar | −3.5 | +2.5 | −3.5 | Bull flattening |
 
-The two largest hits — 4 and 10 March, together −25 bp on the short — were bull-steepening days. Wrong curve for a flattener; the spread still lost only −5.5 bp combined, cutting the outright damage by roughly three quarters. The two smaller losses came on bull-flattening days: outright −7.5 bp, flattener +5.5 bp. When the curve moved correctly on a bad outright day, it flipped positive.
+The two largest hits — 4 and 10 March, together −25 bp on the short — were bull-steepening days. Wrong curve move for a flattener; the spread still lost only −5.5 bp combined, cutting the outright damage by roughly three quarters. The two smaller losses came on bull-flattening days: outright −7.5 bp, flattener +5.5 bp. 
 
 **Outright wins on total return / abs(max DD) in this phase**. 
 
@@ -69,7 +69,7 @@ The five worst outright sessions:
 | 4 Apr | −4.0 | −3.0 | +4.0 | Bear flattening |
 
 Two of the five worst days steepened — 26 March and 9 April. On those two the outright lost −17 bp while the steepener earned +2.5 bp. On the three that bear-flattened, outright lost −25 bp and the steepener lost −7 bp. 
-**This is the phase where the curve nearly matches outright on total return / abs(max DD) (3.3 vs 3.7) at less than a quarter of the max drawdown**. The insurance is real even though only a third of contrary days steepen.
+**This is the phase where the curve nearly matches outright on total return / abs(max DD) (3.3 vs 3.7) at less than a quarter of the max drawdown**. 
 
 ---
 
@@ -93,13 +93,13 @@ The five worst outright sessions:
 
 Three of the five worst days steepened. On those three the outright lost −30 bp. The steepener earned +5 bp. On the two that flattened, outright lost −7.5 bp and the steepener lost −1.7 bp.
 
-**This is the standout. The curve does not just cushion the worst sessions — on the three largest outright hits it is profitable. Total return / abs(max DD) matches the outright at one-third of the drawdown.** Phase III is where the steepener pays for itself on the days that matter.
+**This is the standout. The curve does not just cushion the worst sessions — on the three largest outright hits it is profitable. Total return / abs(max DD) matches the outright at one-third of the drawdown.** 
 
 ---
 
 ## Phase IV — Bull level, bull flattening
 
-Thirty sessions. Dec-26 fell 42 bp, Dec-27 fell 49 bp, spread moved from +3.0 bp to −3.5 bp. Bull level, but the belly outperformed on the way down — bull flattening.
+Thirty sessions. Dec-26 fell 42 bp, Dec-27 fell 49 bp, spread moved from +3.0 bp to −3.5 bp. Bull level, and flattening on the curve. 
 
 Long Dec-26: +46 bp, −18.0 bp max drawdown, ratio 2.6. Flattener: +3.5 bp, −8.5 bp max drawdown, ratio 0.4. Outright dominates on every measure except raw tail size.
 
@@ -130,12 +130,8 @@ Two of five worst days had the right curve; three did not. On the two correct da
 | **III** | Bear + bear steep | 32% | 50% | 2.1 | **2.1** | 1.0× |
 | **IV** | Bull + bull flat | 30% | 33% | **2.6** | 0.4 | 6.5× |
 
-Every phase is roughly thirty percent contrary days. The proportion of those days on which the curve moves correctly is necessary but not sufficient — what matters is whether the **worst outright sessions** fall on correctly-moving curve days.
+Ultimately, outright duration expressions were optimal in each phase. That is: curve behaviour along the realised path didn't match curve behaviour on days when Dec-26 moved unfavorably (on sufficiently many occasions) for curve trades to outperform outright trades on a total return / abs(max DD) basis. 
 
-When they do, the spread can earn while the outright bleeds (Phase III: −30 bp outright, +5 bp steepener on the three worst steepening days). When they do not, the spread still often softens the blow (Phase I: −25 bp outright, −5.5 bp flattener on the two largest bull-steepening hits) but cannot match total return.
-
-Return per unit of maximum drawdown is the honest scorecard. Outright captures more total return in every phase. The curve is rational only where worst-day curve behaviour and contrary-day alignment combine to hold that ratio up while materially reducing drawdown — Phase II (3.3 vs 3.7 at one-quarter of the tail) and Phase III (2.1 vs 2.1 at one-third). Elsewhere, outright wins.
-
-The belly was four different environments. The right question in each was not "bull or bear" alone, but whether the curve shape on the bad days justified being curved rather than outright.
+"Son"-ia - just express duration views outright. 
 
 ## Ali Lodhi
