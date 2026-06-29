@@ -68,9 +68,8 @@ The five worst outright sessions:
 | 9 Apr | −5.5 | +2.0 | +5.5 | Bear steepening |
 | 4 Apr | −4.0 | −3.0 | +4.0 | Bear flattening |
 
-Two of the five worst days steepened — 26 March and 9 April. On those two the outright lost −17 bp while the steepener earned +2.5 bp. On the three that bear-flattened, outright lost −25 bp and the steepener lost −7 bp. The steepener earns when the curve cooperates on a spike; even when it does not, the loss is a fraction of the outright hit.
-
-**This is the phase where the curve nearly matches outright on total return / abs(max DD) (3.3 vs 3.7) at less than a quarter of the drawdown**. The insurance is real even though only a third of contrary days steepen.
+Two of the five worst days steepened — 26 March and 9 April. On those two the outright lost −17 bp while the steepener earned +2.5 bp. On the three that bear-flattened, outright lost −25 bp and the steepener lost −7 bp. 
+**This is the phase where the curve nearly matches outright on total return / abs(max DD) (3.3 vs 3.7) at less than a quarter of the max drawdown**. The insurance is real even though only a third of contrary days steepen.
 
 ---
 
