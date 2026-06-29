@@ -12,7 +12,7 @@ So then what determines the profitability of the stated strategy (long high stri
  
 Hence, when deciding whether to enter into such a position, analytically one would want to compare the implied skew (simply: ATM+50 payer implied – ATM-50 receiver implied) to the realised skew (that is, the realised beta of ATM vol to the underlying rate). (Again we are assuming here parallel moves in the vol surface).
 
- ## Ali Lodhi
+ ### Ali Lodhi
  
  
  
