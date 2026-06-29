@@ -1,6 +1,6 @@
 # JUZ27/JUZ26 (Dec 27 SONIA contract - Dec 26 SONIA contract) steepener
 
-We are initating a steepener on the Dec 27 Dec 26 SONIA curve. The Dec 26 1-month SONIA contract currently prices 42.5bps of hikes through the end of 2026, and 46bps through the end of 2027 - giving a slope of 3.5bps. This is too flat, relative to (i) the macro backdrop and (ii) BOE communication from the April MPC. 
+We are initating a steepener on the Dec 27 - Dec 26 SONIA curve. The Dec 26 1-month SONIA contract currently prices a cumulative change in Bank Rate of 42.5bps through the end of 2026, and 46bps through the end of 2027 - giving a slope of 3.5bps. This is too flat, relative to (i) the macro backdrop and (ii) BOE communication from the April MPC. 
 
 ## (1) Macro backdrop
 
@@ -12,7 +12,7 @@ The prevailing macro backdrop is an unequivocally soft one. Some recent prints i
 - **S&P Global UK Services PMI** (final, 3 Jun): **49.3** in May (from **52.7** in Apr) — first contraction since Apr 2025; new orders down three months running.
 - **Retail sales, Great Britain: April 2026** (ONS, 22 May): volumes **−1.3% m/m** (consensus **−0.6%**); ex-fuel **−0.4%**.
 
-Relative to this softness, the hiking cycle is too front-loaded. Hikes should migrate from 2026 to 2027.
+Relative to this softness, the hiking cycle is too front-loaded. Hikes should migrate from 2026 to 2027, lifting the entire 2027 strip relative to Dec 26. Because of the near-perfect correlatiom between 2027 contracts, this can be cleanly expressed by being long the Dec 27 - Dec 26 curve. 
 
 ## (2) BOE communication at April MPC
 
