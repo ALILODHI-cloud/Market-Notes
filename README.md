@@ -9,6 +9,7 @@ By Ali Lodhi.
 
 - [**Dec27−Dec26 SONIA: four curve regimes since the Iran shock (2026-06-29)**](post_15/body.md)
 - [**Long July SOFR/FFR basis (2026-06-09)**](post_14/body.md)
+- [**Long Dec-26/Dec-27 SONIA 1M futures curve (2026-06-05)**] (post_13/body.md) 
 - [**EUR 5s10s30s: Mortgage Convexity Hedging Redux? (2026-05-14)**](post_12/body.md)
 - [**Optimal expressions of EURHUF downside (2026-05-02)**](post_11/body.md)
 - [**Skew in interest rate volatility**](post_10/body.md)
