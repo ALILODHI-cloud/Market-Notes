@@ -4,6 +4,7 @@ Post onset of the Iran conflict, the Dec-27 - Dec-26 ran through four seperablre
 
 For example: if a particular phase saw Dec 26 outright rally, and the curve bull steepen, did the days on which Dec 26 sold-off the most see the curve bear steepen? If so, did such steepening cushion the PnL of a steepener position enough, such that the steepener's ratio of total return/abs(max DD) beat that of an outright Dec 26? The question is this: was a steepener a more sophisticated way of being long duration, because it paid along the realised path (that is, bull steepening occurred), but, along the way, it also paid in the event of bearish shocks (i.e., because bearish shocks saw steepening, too - just a different kind)? 
 
+We like sophisticated ways if exoressing an outright view on duration. if a curve expression pays both on the realisation of my duration view, and on shocks to the contrary, it is a more asymmetric way of simply being long/short duration outright. If I have a long duration view, and the curve bull steepens over the sample, yet bear steepens upon hawkish shocks - why not put on a steepener instead? Unfortunately, sometimes the curve behaviour associated with my modal duration view is contrary to that associated with the converse of my modal duration view (i.e., the modal path is steepening, yet hawkish shocks induce bear flattening). 
 ---
 
 ## Method
