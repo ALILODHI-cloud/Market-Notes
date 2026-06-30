@@ -132,7 +132,7 @@ Two of five worst days had the right curve; three did not. On the two correct da
 | **III** | Bear + bear steep | 32% | 50% | 2.1 | **2.1** | 1.0× |
 | **IV** | Bull + bull flat | 30% | 33% | **2.6** | 0.4 | 6.5× |
 
-Ultimately, outright duration expressions were optimal in each phase. That is: curve behaviour along the realised path didn't match curve behaviour on days when Dec-26 moved unfavorably (on sufficiently many occasions) for curve trades to outperform outright trades on a total return / abs(max DD) basis. 
+Ultimately, outright duration expressions were optimal in each phase. That is: curve behaviour along the realised path didn't match curve behaviour on days when Dec-26 moved unfavorably (on sufficiently many occasions, or rather on those occasions where it really mattered - namely when the outright Dec-26 trade drew down most extremely) for curve trades to outperform outright trades on a total return / abs(max DD) basis. 
 
 "Son"-ia - just express duration views outright. 
 
