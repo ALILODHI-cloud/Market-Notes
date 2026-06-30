@@ -4,7 +4,7 @@ Following the onset of the Iran conflict, the Dec-27 - Dec-26 curve traded throu
 
 We like curve trades when they express an outright duration view asymmetrically. Suppose over the full sample duration rallies, and the curve bull steepens. However on bad days when duration sells-off, the curve also steepens - just this  time, bear steepens. Thus, over the full sample a steepener is long duration, and also provides a cushion against hawkish shocks along the way. The problem is that curve behaviour can flip across bull/bear days: over the full sample we could have bull steepening, yet upon hawkish duration shocks we could have, say, bear flattening. 
 
-I need to know a priori: the curve behaviour that my modal duration view corresponds to, but also the curve behavior I can expect on days in which duration moves contrary to my modal view. Is this all possible with a sufficiently fine-tuned economic logic? That is a subject for later. Right now we focus on whether curve trades were "better" (defined in terms of total return / abs(max DD)) ways of expressing duration views than outright ones - in UK rates since the onset of the Iran conflict. 
+I need to know a priori: the curve behaviour that my modal duration view corresponds to, but also the curve behavior I can expect on days in which duration moves contrary to my modal view. Is this all possible with a sufficiently fine-tuned economic logic? That is a subject for later. Right now we focus on whether curve trades were "better" (defined in terms of total return / abs(max DD)) ways of expressing duration views than outright ones - in SONIA 3M pricing since the onset of the Iran conflict. 
 
 ---
 
