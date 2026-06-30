@@ -1,6 +1,6 @@
-# Dec27−Dec26 on ICE 3M SONIA: four curve regimes since onset of Iran conflict
+# Dec-27−Dec-26 on ICE 3M SONIA: four curve regimes since onset of Iran conflict
 
-Following the onset of the Iran conflict, the Dec-27 - Dec-26 spread traded through four regimes. Each was defined in terms of (i) whether Dec-26 rallied or sold off; and (ii) whether the Dec-26/Dec-27 curve steepened or flattened, and then whether bullishly or bearishly. The question in each regime is whether the realised duration outcome was "better" expressed outright in Dec-26, or through the curve. Specifically: which expression delivered the better ratio of total return to absolute maximum drawdown?
+Following the onset of the Iran conflict, the Dec-27 - Dec-26 curve traded through four regimes. We define each regime in terms of (i) whether Dec-26 rallied or sold off; and (ii) whether the Dec-26/Dec-27 curve steepened or flattened, and then whether bullishly or bearishly. The question in each regime is whether the realised duration outcome was "better" expressed outright in Dec-26, or through the curve. Specifically: which expression delivered the better ratio of total return to absolute maximum drawdown?
 
 We like curve trades when they express an outright duration view asymmetrically. Suppose over the full sample duration rallies, and the curve bull steepens. However on bad days when duration sells-off, the curve also steepens - just this  time, bear steepening. Thus, over the full sample a steepener is long duration, and also provides a cushion against hawkish shocks along the way. The problem is that curve behaviour can flip across bull/bear days: over the full sample we could have bull steepening, yet upon hawkish duration shocks we could have, say, bear flattening. 
 
