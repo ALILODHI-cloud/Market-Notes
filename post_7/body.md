@@ -32,6 +32,7 @@ In principle, then, one could do the following:
 2.	Identify a notionally large vintage; identify its coupon \ average coupon; 
 3.	When rates fall to near that coupon from the upside, go long bottom right vol (in anticipation of rates falling below that coupon);
 4.	Then, if rates do fall below that coupon, one enjoys vega PnL.
+
 Whether or not this is a feasible undertaking is something I have no idea about whatsoever.
 
 ### Ali Lodhi
