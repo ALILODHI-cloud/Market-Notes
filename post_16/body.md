@@ -42,7 +42,7 @@ Three conclusions follow directly from the data.
 
 **2. Do not rely on outright ATM vol sales alone.** ATM is essentially fair: **+0.3%** versus its long-run average (z = +0.01). You are not being paid for a naked short vol position at the money; the richness is elsewhere.
 
-**3. Sell payer skew.** The hawkish wing is where the sticky premium lives. +100bp payer vol is **+23%** rich to its own average; −100bp receiver vol is **−12%** cheap. Payer skew (+100 minus −100) at **32.4** sits at the **69th percentile** (z = +1.04); +50/−50 skew at **21.4** is at the **70th percentile** (z = +1.21) — the single richest point on the surface. Post-April average skew (+100/−100) has been **42.5** versus **−10.8** pre-April: the surface is paying for upside rate scenarios that a compressing distribution makes less likely. When skew has been above the 75th percentile historically, it has mean-reverted by **~2.7 vol points** over the subsequent 20 sessions.
+**3. Sell payer wing vol, not receiver — and not via a payer RR.** The hawkish wing is where the sticky premium lives. +100bp payer vol is **+23%** rich to its own average; −100bp receiver vol is **−12%** cheap. Payer skew is elevated (32.4 at the 69th percentile), but monetising it with a classic payer RR — sell P100, buy R100 — embeds a long low-strike receiver that leaves you **longer vega as vol compresses**. The data favour **selling +100bp payer outright** and expressing long duration separately.
 
 ![Wing vols and skew](figures/wing_skew.png)
 
@@ -56,23 +56,35 @@ Three conclusions follow directly from the data.
 
 ## Recommended structure
 
-**Trade: short payer skew via a payer risk reversal — sell +100bp payer vol, buy −100bp receiver vol** (delta- and vega-hedged in line with desk convention).
+### The vega-path problem with a payer RR
 
-- **Short the rich leg:** +100bp payer at **104.5** (+23% vs average).
-- **Long the cheap leg:** −100bp receiver at **72.1** (−12% vs average).
-- **Net:** short **32.4** vol points of skew, with long-duration convexity retained on the receiver side.
+The natural skew expression — sell +100bp payer, buy −100bp receiver — monetises the rich hawkish wing. But it embeds a **long low-strike receiver vol** leg. That creates a vega-path problem on the compression thesis.
 
-This expresses the view without fighting the Dec-26 rate level outright. If the distribution compresses further — lower stdev, same modal outcome — payer wing vol and skew should decay faster than receiver wing vol. If Dec-26 eventually rallies, the long receiver leg provides the convexity that a naked short-duration position lacks.
+When implied vol falls, you want to be **net short vega** throughout. A payer RR works against that: the long receiver is long vol on the leg that is already cheap (72.1 vs payer 104.5). On a uniform 10% vol decline, short P100 alone earns **~10.5 vol points**; the equal-notional RR earns only **~3.2** — the receiver leg gives back most of the compression PnL. Worse, as rates rally toward your long-duration view, the receiver moves closer to the money and the structure **gets longer vega** precisely when vol is compressing — the classic re-hedging asymmetry (see [post_10](post_10/body.md)). Historically, when ATM vol fell more than 5 points over 20 days, short P100 returned **+13.1 vol points** on average; the P100/R100 RR returned only **+1.2**.
 
-Alternatives ranked by data, not preference:
+Buying cheap receiver vol is the right way to get convexity. It is the **wrong** way to sell vol into a compressing distribution.
+
+### What to do instead: separate duration from vol
+
+**Vol leg: sell +100bp payer vol outright** (or a payer-side spread — short P100, long P50 — if you want skew exposure without touching the receiver wing).
+
+- +100bp payer at **104.5** is the richest outright vol leg (+23% vs average, z = +0.50).
+- Stays **net short vega** through the compression path: no long receiver to absorb the vol decline.
+- When skew has been above the 75th percentile, short P100 has returned **+15.8 vol points** over the next 20 sessions on average, versus **+2.7** for the RR.
+
+**Duration leg: express separately** — long Dec-26 outright, or via the Dec27−Dec26 curve (see [post_15](post_15/body.md)) — rather than embedding it in a long receiver vol purchase. Do not fight the sticky rate level on the vol trade; fight it on the rate trade only if you have a separate view. The vol trade is purely: sell the rich hawkish wing into distribution compression.
+
+If you want skew monetisation **and** net short vega, prefer a **payer-side spread** (short +100bp payer, long +50bp payer): short **17 vol points** of outer payer skew, entirely on the rich side of the surface, with no receiver leg. Historical PnL when vol falls is weaker than naked short P100 (−0.8 vs +13.1 when ATM drops), so the cleaner expression remains **short P100 outright**.
 
 | Expression | Verdict |
 |------------|---------|
-| Short Dec-26 outright | **Avoid** — level premium is sticky |
+| Short Dec-26 outright (alone) | **Avoid** — level premium is sticky |
 | Sell ATM straddle | **Weak** — ATM is fair, not rich |
-| Sell receiver vol | **Avoid** — cheap, anti-duration |
-| Sell +50/+100 payer vol outright | **Good** — rich wing, but no receiver hedge |
-| **Sell payer skew (RR: short P100, long R100)** | **Best** — richest point, keeps long-duration convexity |
+| Sell receiver vol | **Avoid** — cheap, adds long vega you don't want |
+| **Sell +100bp payer vol outright** | **Best vol expression** — rich, net short vega, captures compression |
+| Payer spread (short P100, long P50) | **Acceptable** — skew without receiver, but less PnL than naked P100 |
+| Payer RR (short P100, long R100) | **Avoid for vol** — long cheap receiver fights compression; vega path wrong |
+| Long Dec-26 + short P100 (combined) | **Best overall** — duration and vol separated, each in the right format |
 
 ---
 
