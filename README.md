@@ -7,6 +7,7 @@ By Ali Lodhi.
 
 ## Latest Posts:
 
+- [**Dec-26 SONIA vol: don't fight the level — sell payer skew (2026-07-03)**](post_16/body.md)
 - [**Dec27−Dec26 SONIA: four curve regimes since the Iran shock (2026-06-29)**](post_15/body.md)
 - [**Long July SOFR/FFR basis (2026-06-09)**](post_14/body.md)
 - [**Long Dec-26/Dec-27 SONIA 1M futures curve (2026-06-05)**](post_13/body.md) 
