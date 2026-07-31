@@ -20,7 +20,7 @@ FFR mid **3.625%**.
 | Long | SQH27 Mar-27 | 4.125% | +50.0 bp | 4.175% | +55.0 bp | **+5.0 bp** |
 | Short | SQH28 Mar-28 | 3.890% | +26.5 bp | 4.025% | +40.0 bp | **+13.5 bp** |
 
-Attribution: long Mar-27 −5.0 bp, short Mar-28 +13.5 bp → net **+8.5 bp** (twist / bear steepening).
+Attribution: long Mar-27 −5.0 bp, short Mar-28 +13.5 bp → net **+8.5 bp** (bear steepening).
 
 ---
 
