@@ -12,6 +12,6 @@ We are opening a Long BOE vs ECB Dec 26 trade @ **+4.5bps** (quoted in terms of 
 | **ESTR Dec-26 (IJZ26)** | 2.495% (**+24.5 bp** vs deposit) |
 | **Relative (UK gap − EUR gap)** | **+4.5 bp** |
 | **Position** | Short JUZ26 / Long IJZ26 |
-| **Target / stop** | 100 / 175 |
+| **Target / stop** | -4.5 / 8.5 |
 
 ### Ali Lodhi
