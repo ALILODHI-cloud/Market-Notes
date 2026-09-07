@@ -7,6 +7,7 @@ By Ali Lodhi.
 
 ## Latest Posts:
 
+- [**Trade Update: Closing our BoE−ECB Dec-26 flattener for +9.0bps (2026-08-04)**](post_18/body.md)
 - [**Long BoE vs ECB Dec-26 @ +4.5bps (2026-07-28)**](post_17/body.md)
 - [**Trade Update: Closing our Mar-27/Mar-28 3m SOFR futures curve steepener for +8.5bps (2026-07-28)**](post_16/body.md)
 - [**Dec27−Dec26 SONIA: four curve regimes since the Iran shock (2026-06-29)**](post_15/body.md)
