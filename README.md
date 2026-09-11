@@ -5,6 +5,8 @@
 
 By Ali Lodhi.
 
+**Curves / live P&amp;L:** [Markets portal](https://alilodhi-cloud.github.io/SOFR_FFR_basis/portal.html) · data through **10 Sep 2026 EOD**
+
 ## Latest Posts:
 
 - [**Trade Update: Closing our BoE−ECB Dec-26 flattener for +9.0bps (2026-08-04)**](post_18/body.md)
